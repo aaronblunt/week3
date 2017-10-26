@@ -1,9 +1,66 @@
 h1 {
   color:firebrick;
+  font-size: 3.5em;
+}
+
+a:hover {
+  text-decoration-color:forestgreen;
+  text-decoration-style: wavy;
+  font-size: 2em;
 }
 
 body {
   color:midnightblue;
   background-color: orange;
+  text-align: inherit;
 }
+
+p::first-letter {
+  font-size:3em;
+  color:darkslategrey;
+}
+
+#universe {
+  width:100%;
+  height:auto;
+  align-content: center;
+}
+
+nav {
+  background-color:tomato;
+  font-size:1.5em;
+}
+
+aside {
+  color:dodgerblue;
+  text-align: center;
+}
+
+footer {
+  border-radius:20px;
+  border-color: darkolivegreen;
+  border-bottom-style:ridge;
+}
+
+ul {
+    list-style-type: upper-latin;
+    margin: 1;
+    padding: 2;
+    width: 200px;
+    background-color: maroon;
+}
+
+li a {
+    display: block;
+    color: aqua;
+    padding: 8px 16px;
+    text-decoration: overline;
+}
+
+li a:hover {
+    background-color: greenyellow;
+    color: white;
+}
+
+
 
